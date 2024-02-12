@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#parent {
+    height: 5000px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    /* Add position relative */
+}
+
+#ott {
+    height: 100px;
+    width: 100%;
+}
+
+#ott video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    /* Adjust the height accordingly */
+    object-fit: cover;
+    /* Ensure the video covers the entire area */
+}
+
+nav {
+    background-color: rgba(42, 42, 42, 0.657);
+    /* Add transparency for better visibility */
+    position: absolute;
+    top: 100.5px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+#home {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(83, 82, 82);
+    position: absolute;
+    top: 100px;
+}
+
+#im1 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(26, 26, 26);
+    margin-top: 60px;
+    border: 1px solid #000;
+}
+
+#im2 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(26, 26, 26);
+    margin-top: 60px;
+    border: 1px solid #000;
+}
+
+#im3 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(26, 26, 26);
+    margin-top: 60px;
+    border: 1px solid #000;
+}
+
+#im4 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(26, 26, 26);
+    margin-top: 60px;
+    border: 1px solid #000;
+}
+
+#imp {
+    justify-content: space-around;
+}
+
+#hero-image1 {
+    height: 55%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://i.ytimg.com/vi/nfK6UgLra7g/maxresdefault.jpg);
+    background-size: cover;
+    border: 1px solid gray;
+}
+
+#hero-image2 {
+    height: 55%;
+    width: 100%;
+    background-image: url(https://miro.medium.com/v2/resize:fit:1200/1*U1Vx49UylcMPo93y2KZjVA.jpeg);
+    background-size: cover;
+}
+
+#hero-image3 {
+    height: 55%;
+    width: 100%;
+    background-image: url(https://assets.mubicdn.net/images/artworks/432163/images-original.png?1639429634);
+    background-size: cover;
+}
+
+#hero-image4 {
+    height: 55%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://m.media-amazon.com/images/S/pv-target-images/665feedf6b22af87a3daae13dba9380bcbad9ba2ac10300542dcbe2040cf6ede.jpg);
+    background-size: cover;
+}
+
+#mega {
+    position: absolute;
+    top: 50px;
+    left: 43%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#logo {
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+#Thor {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-weight: 530;
+    color: white;
+}
+
+#btn1 {
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+#btn2 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#btn3 {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+#btn4 {
+    margin-top: 21px;
+    margin-left: 10px;
+}
+
+#h51 {
+    font-weight: 600;
+    margin-left: 8px;
+    color: white;
+}
+
+#id {
+    color: white;
+}
+
+#imc {
+    justify-content: space-around;
+}
+
+#im5 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(26, 26, 26);
+    margin-top: 60px;
+    border: 1px solid #000;
+}
+
+#hero-image5 {
+    height: 55%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/09/Chainsaw-Man-Preview.jpg);
+    background-size: cover;
+}
+
+#btn5 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#im6 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(26, 26, 26);
+    margin-top: 60px;
+    border: 1px solid #000;
+}
+
+#hero-image6 {
+    height: 55%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://c8.alamy.com/comp/2NJYMMD/suzume-2022-original-title-suzume-no-tojimari-directed-by-makoto-shinkai-credit-comix-wave-films-album-2NJYMMD.jpg);
+    background-size: cover;
+}
+
+#btn6 {
+    margin-top: 21px;
+    margin-left: 10px;
+}
+
+#im7 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(26, 26, 26);
+    margin-top: 60px;
+    border: 1px solid #000;
+}
+
+#hero-image7 {
+    height: 55%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://media.myshows.me/shows/760/f/18/f1882bbeca7113c4d3ff109de8f5ec28.jpg);
+    background-size: cover;
+}
+
+#btn7 {
+    margin-top: 22px;
+    margin-left: 10px;
+}
+
+#im8 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(26, 26, 26);
+    margin-top: 60px;
+    border: 1px solid #000;
+}
+
+#hero-image8 {
+    height: 55%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/263/764/desktop-wallpaper-kimi-no-suizou-wo-tabetai-sakura-yamauchi.jpg);
+    background-size: cover;
+}
+
+#btn8 {
+    margin-top: 43px;
+    margin-left: 10px;
+}
+
+#imx {
+    justify-content: space-around;
+}
+
+#im9 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(26, 26, 26);
+    margin-top: 60px;
+    border: 1px solid #000;
+}
+
+#hero-image9 {
+    height: 55%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/55106611f3f44e55cb25b4da172baf2a.jpe);
+    background-size: cover;
+}
+
+#btn9 {
+    margin-top: 43px;
+    margin-left: 10px;
+}
+
+#im10 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(26, 26, 26);
+    margin-top: 60px;
+    border: 1px solid #000;
+}
+
+#hero-image10 {
+    height: 55%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://pics.filmaffinity.com/Evangelion_3_0_You_Can_Not_Redo-174513819-large.jpg);
+    background-size: cover;
+}
+
+#btn10 {
+    margin-top: 22px;
+    margin-left: 10px;
+}
+
+#im11 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(26, 26, 26);
+    margin-top: 60px;
+    border: 1px solid #000;
+}
+
+#hero-image11 {
+    height: 55%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://www.whats-on-netflix.com/wp-content/uploads/2020/07/the-dragon-prince-season-4-netflix.jpg);
+    background-size: cover;
+}
+
+#btn11 {
+    margin-top: 22px;
+    margin-left: 10px;
+}
+
+#im12 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(26, 26, 26);
+    margin-top: 60px;
+    border: 1px solid #000;
+}
+
+#hero-image12 {
+    height: 55%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2020/01/20013006231797.jpg);
+    background-size: cover;
+}
+
+#btn12 {
+    margin-top: 22px;
+    margin-left: 10px;
+}
